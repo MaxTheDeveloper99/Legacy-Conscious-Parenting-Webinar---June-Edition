@@ -759,3 +759,29 @@ footer {
 .delay-4 {
   animation-delay: 0.8s;
 }
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .bonus-grid {
+    grid-template-columns: 1fr; /* Stack items vertically on smaller screens */
+    gap: 20px;
+  }
+
+  .bonus {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bonus-item {
+    padding: 20px;
+  }
+
+  .bonus-title {
+    font-size: 20px;
+  }
+
+  .bonus-desc {
+    font-size: 15px;
+  }
+}
