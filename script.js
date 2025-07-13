@@ -318,7 +318,7 @@ function showSuccessMessage(registrationData) {
       Thank you, <strong>${registrationData.fullName}</strong>!<br>
       A confirmation email has been sent to <strong>${registrationData.email}</strong>
       <div style="margin-top: 15px; font-size: 14px; color: #666;">
-        📅 Webinar Date: June 30, 2025<br>
+        📅 Webinar Date: July 26, 2025<br>
         ⏰ Time: 1:00 PM<br>
         📧 Check your email for more details!
       </div>
@@ -456,7 +456,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Countdown Timer
 function updateCountdown() {
-  const webinarDate = new Date("June 30, 2025 13:00:00").getTime();
+  const webinarDate = new Date("July 26, 2025 13:00:00").getTime();
   const now = new Date().getTime();
   const timeRemaining = webinarDate - now;
 
